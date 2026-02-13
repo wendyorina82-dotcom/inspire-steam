@@ -12,6 +12,7 @@ print("CONFIRMED")
 print(f"You have received {amount_added}KES from {From}")
 print(f"mpesa_code:{mpesa_code}")
 
+#New balance
 new_balance= int(amount_added) + int(mpesa_balance)
 
 print(f"Your new balance is {new_balance}KES")
